@@ -1,0 +1,955 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Descubre los mejores videojuegos de modo historia: narrativas épicas, personajes memorables y mundos increíbles."
+        />
+        <title>StoryGames – Los Mejores Juegos Modo Historia</title>
+
+        <!-- Fuentes de Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Hoja de estilos principal -->
+        <link rel="stylesheet" href="css/estilos.css" />
+    </head>
+    <body>
+        <!-- ========== ENCABEZADO Y NAVEGACIÓN ========== -->
+        <header class="encabezado" id="encabezado">
+            <nav
+                class="navegacion contenedor"
+                aria-label="Navegación principal"
+            >
+                <!-- Logo -->
+                <a
+                    href="#inicio"
+                    class="logo"
+                    aria-label="StoryGames - Ir al inicio"
+                >
+                    <span class="logo-icono" aria-hidden="true">🎮</span>
+                    <span class="logo-texto">StoryGames</span>
+                </a>
+
+                <!-- Menú de navegación -->
+                <ul class="nav-lista" id="navLista" role="list">
+                    <li><a href="#inicio" class="nav-enlace">Inicio</a></li>
+                    <li><a href="#juegos" class="nav-enlace">Juegos</a></li>
+                    <li>
+                        <a href="#categorias" class="nav-enlace">Categorías</a>
+                    </li>
+                    <li>
+                        <a href="#sobre" class="nav-enlace"
+                            >¿Por qué historia?</a
+                        >
+                    </li>
+                </ul>
+
+                <!-- Botón hamburguesa para móvil -->
+                <button
+                    class="menu-hamburguesa"
+                    id="menuHamburguesa"
+                    aria-label="Abrir o cerrar el menú de navegación"
+                    aria-expanded="false"
+                    aria-controls="navLista"
+                >
+                    <span class="hamburguesa-linea" aria-hidden="true"></span>
+                    <span class="hamburguesa-linea" aria-hidden="true"></span>
+                    <span class="hamburguesa-linea" aria-hidden="true"></span>
+                </button>
+            </nav>
+        </header>
+
+        <!-- ========== CONTENIDO PRINCIPAL ========== -->
+        <main>
+            <!-- ── SECCIÓN HERO ── -->
+            <section id="inicio" class="hero" aria-labelledby="heroTitulo">
+                <div class="hero-fondo" aria-hidden="true">
+                    <div
+                        class="hero-particula"
+                        style="--x: 15%; --y: 25%; --s: 1.2; --d: 4s"
+                    ></div>
+                    <div
+                        class="hero-particula"
+                        style="--x: 75%; --y: 60%; --s: 0.8; --d: 6s"
+                    ></div>
+                    <div
+                        class="hero-particula"
+                        style="--x: 40%; --y: 80%; --s: 1.5; --d: 5s"
+                    ></div>
+                    <div
+                        class="hero-particula"
+                        style="--x: 90%; --y: 20%; --s: 0.6; --d: 7s"
+                    ></div>
+                    <div
+                        class="hero-particula"
+                        style="--x: 55%; --y: 45%; --s: 1; --d: 3s"
+                    ></div>
+                </div>
+
+                <div class="hero-contenido contenedor">
+                    <p class="hero-subtitulo">✦ Selección editorial 2025</p>
+                    <h1 id="heroTitulo" class="hero-titulo">
+                        Los Mejores<br />
+                        <span class="texto-gradiente"
+                            >Juegos Modo Historia</span
+                        >
+                    </h1>
+                    <p class="hero-descripcion">
+                        Narrativas que te atrapan, personajes que no olvidarás y
+                        mundos que querrás explorar para siempre. Descubre las
+                        aventuras que han redefinido el videojuego como arte.
+                    </p>
+                    <div class="hero-botones">
+                        <a href="#juegos" class="boton boton-principal"
+                            >Explorar Catálogo</a
+                        >
+                        <a href="#sobre" class="boton boton-secundario"
+                            >¿Por qué modo historia?</a
+                        >
+                    </div>
+                </div>
+
+                <!-- Imagen decorativa del hero -->
+                <div class="hero-imagen-contenedor" aria-hidden="true">
+                    <img
+                        src="https://cdn.akamai.steamstatic.com/steam/apps/1888930/library_hero.jpg"
+                        alt="Arte oficial de The Last of Us Part I: paisaje postapocalíptico épico"
+                        class="hero-imagen"
+                        loading="eager"
+                    />
+                    <div class="hero-imagen-overlay" aria-hidden="true"></div>
+                </div>
+            </section>
+
+            <!-- ── SECCIÓN ESTADÍSTICAS ── -->
+            <section
+                class="estadisticas"
+                aria-label="Estadísticas del catálogo"
+            >
+                <div class="contenedor estadisticas-grid">
+                    <div class="stat-tarjeta">
+                        <span
+                            class="stat-numero"
+                            data-objetivo="10"
+                            aria-label="Más de 10 juegos destacados"
+                            >10+</span
+                        >
+                        <span class="stat-etiqueta">Juegos Destacados</span>
+                    </div>
+                    <div class="stat-tarjeta">
+                        <span
+                            class="stat-numero"
+                            aria-label="5 géneros disponibles"
+                            >5</span
+                        >
+                        <span class="stat-etiqueta">Géneros</span>
+                    </div>
+                    <div class="stat-tarjeta">
+                        <span
+                            class="stat-numero"
+                            aria-label="Más de 100 horas de contenido"
+                            >100h+</span
+                        >
+                        <span class="stat-etiqueta">De Contenido</span>
+                    </div>
+                    <div class="stat-tarjeta">
+                        <span
+                            class="stat-numero"
+                            aria-label="Puntuación media mayor a 9"
+                            >9.0+</span
+                        >
+                        <span class="stat-etiqueta">Puntuación Media</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ── SECCIÓN CATÁLOGO DE JUEGOS ── -->
+            <section
+                id="juegos"
+                class="seccion-juegos"
+                aria-labelledby="tituloJuegos"
+            >
+                <div class="contenedor">
+                    <header class="seccion-encabezado">
+                        <h2 id="tituloJuegos" class="seccion-titulo">
+                            Catálogo de Juegos
+                        </h2>
+                        <p class="seccion-descripcion">
+                            Filtra por género y encuentra tu próxima aventura
+                            narrativa favorita
+                        </p>
+                    </header>
+
+                    <!-- Buscador -->
+                    <div class="buscador-contenedor" role="search">
+                        <label for="buscador" class="visualmente-oculto"
+                            >Buscar juego por nombre</label
+                        >
+                        <input
+                            type="search"
+                            id="buscador"
+                            class="buscador-input"
+                            placeholder="Buscar un juego..."
+                            aria-label="Buscar juego por nombre"
+                            autocomplete="off"
+                        />
+                        <span class="buscador-icono" aria-hidden="true"
+                            >🔍</span
+                        >
+                    </div>
+
+                    <!-- Filtros de género -->
+                    <div
+                        id="categorias"
+                        class="filtros"
+                        role="group"
+                        aria-label="Filtrar juegos por género"
+                    >
+                        <button
+                            class="filtro-btn activo"
+                            data-filtro="todos"
+                            aria-pressed="true"
+                        >
+                            Todos
+                        </button>
+                        <button
+                            class="filtro-btn"
+                            data-filtro="accion"
+                            aria-pressed="false"
+                        >
+                            ⚔️ Acción
+                        </button>
+                        <button
+                            class="filtro-btn"
+                            data-filtro="rpg"
+                            aria-pressed="false"
+                        >
+                            🧙 RPG
+                        </button>
+                        <button
+                            class="filtro-btn"
+                            data-filtro="aventura"
+                            aria-pressed="false"
+                        >
+                            🗺️ Aventura
+                        </button>
+                        <button
+                            class="filtro-btn"
+                            data-filtro="drama"
+                            aria-pressed="false"
+                        >
+                            🎭 Drama
+                        </button>
+                        <button
+                            class="filtro-btn"
+                            data-filtro="indie"
+                            aria-pressed="false"
+                        >
+                            🌱 Indie
+                        </button>
+                        <button
+                            class="filtro-btn filtro-btn-usuario"
+                            data-filtro="misjuegos"
+                            aria-pressed="false"
+                        >
+                            ⭐ Mis Juegos
+                        </button>
+                    </div>
+
+                    <!-- Botón para agregar juego propio -->
+                    <div class="seccion-agregar">
+                        <button
+                            class="boton boton-agregar"
+                            id="btnAgregarJuego"
+                            aria-label="Añadir un juego que he jugado"
+                        >
+                            <span aria-hidden="true">＋</span> Añadir mi juego
+                        </button>
+                        <p class="seccion-agregar-hint">
+                            ¿Has jugado algo increíble? ¡Añádelo a tu lista
+                            personal!
+                        </p>
+                    </div>
+
+                    <!-- Contador de resultados -->
+                    <p
+                        class="contador-resultados"
+                        id="contadorResultados"
+                        aria-live="polite"
+                    ></p>
+
+                    <!-- Cuadrícula de tarjetas de juegos (generada por JS) -->
+                    <div
+                        class="juegos-cuadricula"
+                        id="juegosCuadricula"
+                        aria-label="Lista de juegos"
+                    ></div>
+
+                    <!-- Mensaje cuando no hay resultados -->
+                    <div
+                        class="sin-resultados oculto"
+                        id="sinResultados"
+                        role="alert"
+                        aria-live="polite"
+                    >
+                        <span class="sin-resultados-icono" aria-hidden="true"
+                            >😔</span
+                        >
+                        <p>No se encontraron juegos con ese criterio.</p>
+                        <button
+                            class="boton boton-principal"
+                            id="btnLimpiarFiltros"
+                        >
+                            Ver todos los juegos
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ── MODAL DE DETALLE DEL JUEGO ── -->
+            <div
+                class="modal-overlay oculto"
+                id="modalOverlay"
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby="modalTitulo"
+            >
+                <div class="modal-contenido" id="modalContenido">
+                    <!-- Botón cerrar -->
+                    <button
+                        class="modal-cerrar"
+                        id="modalCerrar"
+                        aria-label="Cerrar información del juego"
+                    >
+                        ✕
+                    </button>
+
+                    <!-- Imagen del juego -->
+                    <div class="modal-imagen-contenedor">
+                        <img
+                            id="modalImagen"
+                            src=""
+                            alt=""
+                            class="modal-imagen"
+                            loading="lazy"
+                        />
+                        <span class="modal-genero-badge" id="modalBadge"></span>
+                    </div>
+
+                    <!-- Información del juego -->
+                    <div class="modal-info">
+                        <h2 id="modalTitulo" class="modal-titulo"></h2>
+
+                        <div class="modal-meta" id="modalMeta"></div>
+
+                        <div
+                            class="modal-puntuacion"
+                            id="modalPuntuacion"
+                            aria-label="Puntuación del juego"
+                        ></div>
+
+                        <p id="modalDescripcion" class="modal-descripcion"></p>
+
+                        <div
+                            class="modal-caracteristicas"
+                            id="modalCaracteristicas"
+                        >
+                            <h3 class="modal-caracteristicas-titulo">
+                                ¿Por qué jugarlo?
+                            </h3>
+                            <ul
+                                id="modalCaracteristicasLista"
+                                class="modal-lista"
+                                role="list"
+                            ></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ── SECCIÓN ¿POR QUÉ MODO HISTORIA? ── -->
+            <section
+                id="sobre"
+                class="seccion-sobre"
+                aria-labelledby="tituloSobre"
+            >
+                <div class="contenedor">
+                    <header class="seccion-encabezado">
+                        <h2 id="tituloSobre" class="seccion-titulo">
+                            ¿Por Qué el Modo Historia?
+                        </h2>
+                        <p class="seccion-descripcion">
+                            Los videojuegos narrativos son una forma de arte que
+                            combina lo mejor de la literatura, el cine y la
+                            interactividad
+                        </p>
+                    </header>
+
+                    <div class="sobre-cuadricula">
+                        <article class="sobre-tarjeta">
+                            <div class="sobre-icono" aria-hidden="true">📖</div>
+                            <h3 class="sobre-tarjeta-titulo">
+                                Narrativas Profundas
+                            </h3>
+                            <p>
+                                Historias comparables a las mejores novelas y
+                                películas, con la ventaja de que tú eres el
+                                protagonista y vives los momentos en primera
+                                persona.
+                            </p>
+                        </article>
+
+                        <article class="sobre-tarjeta">
+                            <div class="sobre-icono" aria-hidden="true">🎭</div>
+                            <h3 class="sobre-tarjeta-titulo">
+                                Personajes Memorables
+                            </h3>
+                            <p>
+                                Conoce personajes con profundidad emocional
+                                real, cuyos arcos narrativos te harán reír,
+                                llorar y reflexionar sobre la condición humana.
+                            </p>
+                        </article>
+
+                        <article class="sobre-tarjeta">
+                            <div class="sobre-icono" aria-hidden="true">🌍</div>
+                            <h3 class="sobre-tarjeta-titulo">
+                                Mundos Increíbles
+                            </h3>
+                            <p>
+                                Explora universos meticulosamente construidos,
+                                desde tierras postapocalípticas hasta reinos de
+                                fantasía, cada uno con su propia historia y
+                                lore.
+                            </p>
+                        </article>
+
+                        <article class="sobre-tarjeta">
+                            <div class="sobre-icono" aria-hidden="true">💡</div>
+                            <h3 class="sobre-tarjeta-titulo">
+                                Decisiones que Importan
+                            </h3>
+                            <p>
+                                Muchos juegos narrativos te dan el poder de
+                                moldear el destino de los personajes con tus
+                                elecciones, haciendo cada partida única e
+                                irrepetible.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ── SECCIÓN LLAMADA A LA ACCIÓN ── -->
+            <section class="seccion-cta" aria-labelledby="tituloCta">
+                <div class="contenedor cta-contenido">
+                    <h2 id="tituloCta" class="cta-titulo">
+                        ¿Listo para tu próxima aventura?
+                    </h2>
+                    <p class="cta-descripcion">
+                        Explora nuestro catálogo completo y encuentra el juego
+                        que cambiará tu forma de ver los videojuegos.
+                    </p>
+                    <a href="#juegos" class="boton boton-principal boton-grande"
+                        >Ver todos los juegos ↑</a
+                    >
+                </div>
+            </section>
+
+            <!-- ── MODAL FORMULARIO: AÑADIR MI JUEGO ── -->
+            <div
+                class="modal-overlay oculto"
+                id="formModal"
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby="formModalTitulo"
+            >
+                <div
+                    class="modal-contenido form-modal-contenido"
+                    id="formModalContenido"
+                >
+                    <!-- Botón cerrar -->
+                    <button
+                        class="modal-cerrar"
+                        id="formModalCerrar"
+                        aria-label="Cerrar formulario de añadir juego"
+                    >
+                        ✕
+                    </button>
+
+                    <!-- Encabezado del formulario -->
+                    <div class="form-modal-header">
+                        <span class="form-modal-icono" aria-hidden="true"
+                            >🎮</span
+                        >
+                        <h2 id="formModalTitulo" class="form-modal-titulo">
+                            Añadir Mi Juego
+                        </h2>
+                        <p class="form-modal-subtitulo">
+                            Comparte un juego que hayas jugado y lo añadirás a
+                            tu lista personal
+                        </p>
+                    </div>
+
+                    <!-- Formulario -->
+                    <form
+                        class="formulario-juego"
+                        id="formularioJuego"
+                        novalidate
+                    >
+                        <!-- Fila 1: Título y Estudio -->
+                        <div class="formulario-fila">
+                            <div class="formulario-grupo">
+                                <label
+                                    class="formulario-label"
+                                    for="formTitulo"
+                                >
+                                    Título del juego
+                                    <span
+                                        class="formulario-requerido"
+                                        aria-label="campo requerido"
+                                        >*</span
+                                    >
+                                </label>
+                                <input
+                                    type="text"
+                                    id="formTitulo"
+                                    name="titulo"
+                                    class="formulario-input"
+                                    placeholder="Ej: Shadow of the Colossus"
+                                    maxlength="100"
+                                    aria-required="true"
+                                    autocomplete="off"
+                                />
+                            </div>
+                            <div class="formulario-grupo">
+                                <label
+                                    class="formulario-label"
+                                    for="formEstudio"
+                                >
+                                    Estudio / Desarrollador
+                                    <span
+                                        class="formulario-requerido"
+                                        aria-label="campo requerido"
+                                        >*</span
+                                    >
+                                </label>
+                                <input
+                                    type="text"
+                                    id="formEstudio"
+                                    name="estudio"
+                                    class="formulario-input"
+                                    placeholder="Ej: Team Ico"
+                                    maxlength="80"
+                                    aria-required="true"
+                                    autocomplete="off"
+                                />
+                            </div>
+                        </div>
+
+                        <!-- Fila 2: Año, Género, Dificultad -->
+                        <div class="formulario-fila formulario-fila-3">
+                            <div class="formulario-grupo">
+                                <label class="formulario-label" for="formAnio">
+                                    Año
+                                    <span
+                                        class="formulario-requerido"
+                                        aria-label="campo requerido"
+                                        >*</span
+                                    >
+                                </label>
+                                <input
+                                    type="number"
+                                    id="formAnio"
+                                    name="anio"
+                                    class="formulario-input"
+                                    placeholder="2024"
+                                    min="1970"
+                                    max="2030"
+                                    aria-required="true"
+                                />
+                            </div>
+                            <div class="formulario-grupo">
+                                <label
+                                    class="formulario-label"
+                                    for="formGenero"
+                                >
+                                    Género
+                                    <span
+                                        class="formulario-requerido"
+                                        aria-label="campo requerido"
+                                        >*</span
+                                    >
+                                </label>
+                                <select
+                                    id="formGenero"
+                                    name="genero"
+                                    class="formulario-select"
+                                    aria-required="true"
+                                >
+                                    <option value="">— Selecciona —</option>
+                                    <option value="accion">⚔️ Acción</option>
+                                    <option value="rpg">🧙 RPG</option>
+                                    <option value="aventura">
+                                        🗺️ Aventura
+                                    </option>
+                                    <option value="drama">🎭 Drama</option>
+                                    <option value="indie">🌱 Indie</option>
+                                </select>
+                            </div>
+                            <div class="formulario-grupo">
+                                <label
+                                    class="formulario-label"
+                                    for="formDificultad"
+                                    >Dificultad</label
+                                >
+                                <select
+                                    id="formDificultad"
+                                    name="dificultad"
+                                    class="formulario-select"
+                                >
+                                    <option value="Fácil">😊 Fácil</option>
+                                    <option value="Media" selected>
+                                        😐 Media
+                                    </option>
+                                    <option value="Difícil">😤 Difícil</option>
+                                    <option value="Muy difícil">
+                                        💀 Muy difícil
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Fila 3: Plataforma, Duración -->
+                        <div class="formulario-fila">
+                            <div class="formulario-grupo">
+                                <label
+                                    class="formulario-label"
+                                    for="formPlataforma"
+                                >
+                                    Plataforma(s)
+                                    <span
+                                        class="formulario-requerido"
+                                        aria-label="campo requerido"
+                                        >*</span
+                                    >
+                                </label>
+                                <input
+                                    type="text"
+                                    id="formPlataforma"
+                                    name="plataforma"
+                                    class="formulario-input"
+                                    placeholder="Ej: PS4 · PC · Switch"
+                                    maxlength="80"
+                                    aria-required="true"
+                                    autocomplete="off"
+                                />
+                            </div>
+                            <div class="formulario-grupo">
+                                <label
+                                    class="formulario-label"
+                                    for="formDuracion"
+                                    >Duración estimada</label
+                                >
+                                <input
+                                    type="text"
+                                    id="formDuracion"
+                                    name="duracion"
+                                    class="formulario-input"
+                                    placeholder="Ej: 20-30h"
+                                    maxlength="20"
+                                    autocomplete="off"
+                                />
+                            </div>
+                        </div>
+
+                        <!-- Puntuación y Metacritic -->
+                        <div class="formulario-fila">
+                            <div class="formulario-grupo">
+                                <label
+                                    class="formulario-label"
+                                    for="formPuntuacion"
+                                >
+                                    Tu puntuación (1-10)
+                                    <span
+                                        class="formulario-requerido"
+                                        aria-label="campo requerido"
+                                        >*</span
+                                    >
+                                </label>
+                                <div class="formulario-puntuacion-contenedor">
+                                    <input
+                                        type="range"
+                                        id="formPuntuacion"
+                                        name="puntuacion"
+                                        class="formulario-range"
+                                        min="1"
+                                        max="10"
+                                        step="0.5"
+                                        value="8"
+                                        aria-required="true"
+                                        aria-valuemin="1"
+                                        aria-valuemax="10"
+                                    />
+                                    <output
+                                        class="formulario-puntuacion-valor"
+                                        id="formPuntuacionValor"
+                                        for="formPuntuacion"
+                                        aria-live="polite"
+                                        >8.0</output
+                                    >
+                                </div>
+                            </div>
+                            <div class="formulario-grupo">
+                                <label
+                                    class="formulario-label"
+                                    for="formMetacritic"
+                                    >Puntuación Metacritic</label
+                                >
+                                <input
+                                    type="number"
+                                    id="formMetacritic"
+                                    name="metacritic"
+                                    class="formulario-input"
+                                    placeholder="Ej: 92"
+                                    min="0"
+                                    max="100"
+                                    autocomplete="off"
+                                />
+                            </div>
+                        </div>
+
+                        <!-- Imagen: Steam ID o URL -->
+                        <div class="formulario-seccion-imagen">
+                            <p class="formulario-seccion-titulo">
+                                🖼️ Imagen del juego
+                                <span class="formulario-opcional"
+                                    >(opcional)</span
+                                >
+                            </p>
+                            <div class="formulario-fila">
+                                <div class="formulario-grupo">
+                                    <label
+                                        class="formulario-label"
+                                        for="formSteamId"
+                                        >ID de Steam (recomendado)</label
+                                    >
+                                    <input
+                                        type="number"
+                                        id="formSteamId"
+                                        name="steamId"
+                                        class="formulario-input"
+                                        placeholder="Ej: 1888930"
+                                        autocomplete="off"
+                                    />
+                                    <p class="formulario-ayuda">
+                                        Búscalo en la URL de Steam:
+                                        store.steampowered.com/app/<strong>ID</strong>/
+                                    </p>
+                                </div>
+                                <div class="formulario-grupo">
+                                    <label
+                                        class="formulario-label"
+                                        for="formImagenUrl"
+                                        >O URL de imagen personalizada</label
+                                    >
+                                    <input
+                                        type="url"
+                                        id="formImagenUrl"
+                                        name="imagenUrl"
+                                        class="formulario-input"
+                                        placeholder="https://..."
+                                        autocomplete="off"
+                                    />
+                                </div>
+                            </div>
+                            <!-- Preview de la imagen -->
+                            <div
+                                class="formulario-imagen-preview-contenedor"
+                                id="formImagenPreviewContenedor"
+                                aria-hidden="true"
+                            >
+                                <img
+                                    id="formImagenPreview"
+                                    src=""
+                                    alt="Vista previa de la imagen del juego"
+                                    class="formulario-imagen-preview"
+                                />
+                            </div>
+                        </div>
+
+                        <!-- Descripción -->
+                        <div class="formulario-grupo">
+                            <label
+                                class="formulario-label"
+                                for="formDescripcion"
+                            >
+                                Descripción
+                                <span
+                                    class="formulario-requerido"
+                                    aria-label="campo requerido"
+                                    >*</span
+                                >
+                            </label>
+                            <textarea
+                                id="formDescripcion"
+                                name="descripcion"
+                                class="formulario-textarea"
+                                placeholder="Describe de qué trata el juego y por qué lo recomiendas..."
+                                rows="4"
+                                maxlength="600"
+                                aria-required="true"
+                            ></textarea>
+                            <p
+                                class="formulario-ayuda formulario-contador-chars"
+                            >
+                                <span id="formDescripcionContador">0</span>/600
+                                caracteres
+                            </p>
+                        </div>
+
+                        <!-- ¿Por qué lo recomiendas? -->
+                        <div class="formulario-grupo">
+                            <label
+                                class="formulario-label"
+                                for="formCaracteristicas"
+                            >
+                                ¿Por qué lo recomiendas?
+                                <span class="formulario-opcional"
+                                    >(opcional)</span
+                                >
+                            </label>
+                            <textarea
+                                id="formCaracteristicas"
+                                name="caracteristicas"
+                                class="formulario-textarea"
+                                placeholder="Escribe cada razón en una línea separada&#10;Ej: Historia emotiva e inesperada&#10;Gráficos impresionantes"
+                                rows="3"
+                                maxlength="400"
+                            ></textarea>
+                            <p class="formulario-ayuda">
+                                Escribe cada punto en una línea separada (Enter)
+                            </p>
+                        </div>
+
+                        <!-- Premios -->
+                        <div class="formulario-grupo">
+                            <label class="formulario-label" for="formPremios">
+                                Premios destacados
+                                <span class="formulario-opcional"
+                                    >(opcional)</span
+                                >
+                            </label>
+                            <input
+                                type="text"
+                                id="formPremios"
+                                name="premios"
+                                class="formulario-input"
+                                placeholder="Ej: GOTY 2023, BAFTA Mejor Juego, ..."
+                                maxlength="200"
+                                autocomplete="off"
+                            />
+                            <p class="formulario-ayuda">
+                                Separa los premios con comas
+                            </p>
+                        </div>
+
+                        <!-- Botones de acción -->
+                        <div class="formulario-acciones">
+                            <button
+                                type="button"
+                                class="boton boton-secundario"
+                                id="formBtnCancelar"
+                            >
+                                Cancelar
+                            </button>
+                            <button
+                                type="submit"
+                                class="boton boton-principal"
+                                id="formBtnGuardar"
+                            >
+                                <span class="btn-guardar-texto"
+                                    >💾 Guardar en mi lista</span
+                                >
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <!-- ========== PIE DE PÁGINA ========== -->
+        <footer class="pie-pagina" aria-label="Pie de página">
+            <div class="contenedor pie-pagina-grid">
+                <!-- Marca -->
+                <div class="pie-marca">
+                    <a
+                        href="#inicio"
+                        class="logo"
+                        aria-label="StoryGames - Inicio"
+                    >
+                        <span class="logo-icono" aria-hidden="true">🎮</span>
+                        <span class="logo-texto">StoryGames</span>
+                    </a>
+                    <p class="pie-descripcion">
+                        Tu guía definitiva para los mejores videojuegos
+                        narrativos del mundo.
+                    </p>
+                </div>
+
+                <!-- Navegación del footer -->
+                <nav class="pie-nav" aria-label="Navegación del pie de página">
+                    <h4 class="pie-nav-titulo">Navegación</h4>
+                    <ul role="list">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#juegos">Juegos</a></li>
+                        <li><a href="#categorias">Categorías</a></li>
+                        <li><a href="#sobre">¿Por qué historia?</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Géneros -->
+                <div class="pie-generos">
+                    <h4 class="pie-nav-titulo">Géneros</h4>
+                    <ul role="list">
+                        <li>Acción-Aventura</li>
+                        <li>RPG</li>
+                        <li>Drama Interactivo</li>
+                        <li>Indie</li>
+                        <li>Survival</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Línea de créditos -->
+            <div class="pie-creditos">
+                <div class="contenedor">
+                    <p>
+                        © 2025 StoryGames · Hecho con ❤️ para los amantes de las
+                        buenas historias
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- ========== BOTÓN VOLVER ARRIBA ========== -->
+        <button
+            class="btn-volver-arriba oculto"
+            id="btnVolverArriba"
+            aria-label="Volver al inicio de la página"
+            title="Volver arriba"
+        >
+            ↑
+        </button>
+
+        <!-- Script principal -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
