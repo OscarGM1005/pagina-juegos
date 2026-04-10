@@ -684,7 +684,7 @@ const JUEGOS = [
     plataforma: "PC · PS5 · Xbox Series X",
     puntuacion: 9.1,
     imagen:
-      "https://cdn.akamai.steamstatic.com/steam/apps/1850050/capsule_616x353.jpg",
+      "https://cdn.dlcompare.com/game_tetiere/upload/gameimage/file/alan-wake-2-file-91555a595.jpg.webp",
     imagenAlt:
       "Portada oficial de Alan Wake 2: el escritor en el oscuro Lugar Oscuro sobrenatural",
     descripcion:
@@ -1580,7 +1580,7 @@ const JUEGOS = [
     plataforma: "PC · Xbox One · Xbox Series X",
     puntuacion: 8.9,
     imagen:
-      "https://cdn.akamai.steamstatic.com/steam/apps/1929440/capsule_616x353.jpg",
+      "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_Pentiment_image1600w.jpg",
     imagenAlt:
       "Portada oficial de Pentiment: Andreas Maler en el monasterio bávaro del siglo XVI iluminado",
     descripcion:
